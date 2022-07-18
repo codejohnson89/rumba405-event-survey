@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.container {
+  max-width: 960px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 2px 9px #333;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+.form-check-input:checked {
+  border-color: red;
+  background-color: red;
+}
+
+.btn {
+  background-color: red;
+  border-color: red;
+}
+
+.btn:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+.row {
+  justify-content: center;
+}
