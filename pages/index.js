@@ -6,7 +6,7 @@ import { Button, Container, Row } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 
 import { useForm } from "react-hook-form";
-import keys from './util/email';
+import keys from '../util/email';
 
 import Image from 'next/image';
 
